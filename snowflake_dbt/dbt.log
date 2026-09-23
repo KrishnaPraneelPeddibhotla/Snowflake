@@ -1,0 +1,34 @@
+[0m17:04:29.058455 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x118d6f7d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1191b3bc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x118a644d0>]}
+
+
+============================== 17:04:29.078701 | 1b0e2828-79fa-432d-8b21-365069cb62ff ==============================
+[0m17:04:29.078701 [info ] [MainThread]: Running with dbt=1.11.12
+[0m17:04:29.079036 [debug] [MainThread]: running dbt with arguments {'no_print': 'None', 'fail_fast': 'False', 'printer_width': '80', 'target_path': 'None', 'version_check': 'True', 'partial_parse': 'True', 'static_parser': 'True', 'cache_selected_only': 'False', 'use_colors': 'True', 'empty': 'None', 'send_anonymous_usage_stats': 'True', 'log_path': 'logs', 'indirect_selection': 'eager', 'warn_error': 'None', 'quiet': 'False', 'debug': 'False', 'log_format': 'default', 'invocation_command': 'dbt init', 'introspect': 'True', 'write_json': 'True', 'log_cache_events': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'profiles_dir': '/Users/as-mac-1465/.dbt', 'use_experimental_parser': 'False'}
+[0m17:04:29.117974 [info ] [MainThread]: Creating dbt configuration folder at /Users/as-mac-1465/.dbt
+[0m17:07:03.831726 [debug] [MainThread]: Starter project path: /Users/as-mac-1465/.venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m17:07:03.887531 [info ] [MainThread]: 
+Your new dbt project "de_project_1" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:07:03.888116 [info ] [MainThread]: Setting up your profile.
+[0m17:07:33.212779 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m17:07:33.213094 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m17:07:33.213255 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m17:16:55.840609 [info ] [MainThread]: Profile de_project_1 written to /Users/as-mac-1465/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m17:16:55.893938 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 746.8778, "process_in_blocks": "0", "process_kernel_time": 0.671677, "process_mem_max_rss": "166559744", "process_out_blocks": "0", "process_user_time": 2.326865}
+[0m17:16:55.895606 [debug] [MainThread]: Command `dbt init` succeeded at 17:16:55.895396 after 746.88 seconds
+[0m17:16:55.896265 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x118cb4fb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x119641670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11a9f6f00>]}
+[0m17:16:55.896826 [debug] [MainThread]: Flushing usage events
+[0m17:16:56.927622 [debug] [MainThread]: An error was encountered while trying to flush usage events
